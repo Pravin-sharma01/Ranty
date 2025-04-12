@@ -1,0 +1,367 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: auto;
+    width: auto;
+    background-image: url("bg.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-attachment: local;
+}
+
+/* This is Navbar Section */
+
+.navbar{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #3d0c02;
+}
+
+.logo>img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;  
+    color: #3d0c02;
+}
+
+.section2{
+    display: flex;
+    gap: 1.1rem;
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    align-items: center;
+    color: #3d0c02;
+}
+
+.section2>li:nth-child(2){
+    height: 1.5rem;
+    width: 0.05rem;
+    background-color: #5F8AA0;
+}
+
+.section2>li:last-child{
+    text-decoration: underline;
+}
+
+/* This is Main section of Left Side */
+
+.main{
+    margin-top:6rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.left{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0rem;
+
+
+}
+sup{
+    font-size:3rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 0.5rem;
+}
+.para{
+    font-size: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.para>p:first-child, .para>p:last-child{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2rem;
+    color: rgb(56, 36, 27);
+    letter-spacing: -0.5rem;
+}
+
+.para>p:nth-child(2){
+    font-family: 'Times New Roman', Times, serif;
+    transform: translateY(12px);
+    color:rgb(56, 36, 27);
+    letter-spacing: -0.5rem;
+}
+
+.left>p:first-of-type{
+    color: rgba(238, 220, 210, 0.986);
+    font-size: 1.2rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+    margin-top: 1rem;
+
+}
+.left>span{
+    text-align: center;
+    padding: 0.9rem;
+    width: 9rem;
+    border-radius: 5rem;
+    background-color:  rgb(56, 36, 27);
+    color: #f3e0e1;
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;  
+    letter-spacing: 0.05rem;
+}
+
+/* This is Main section of Right Side */
+
+.right{
+    height: 24rem;
+    width: 37rem;
+    background-color:#F4F0EC;
+    border-radius:3.5rem;
+    list-style: none;
+    position: relative;
+    right: 5rem;
+}
+
+.container{
+    margin: 2.5rem;s
+}
+
+.section3{
+    display: flex;
+    gap: 5px;
+}
+
+.section3>li{
+    font-size: 0.8rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.section3>li:first-child,.section3>li:nth-child(2){
+    border: 1.2px solid rgb(146, 146, 146);
+    border-radius: 1.5rem;
+    width:4.5rem;
+    color: rgb(48, 33, 33);
+}
+
+.section3>li:last-child{
+    border-radius: 50%;
+    background-color: rgb(48, 33, 33);
+    color: rgba(238, 220, 210, 0.986);
+
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin
+}
+
+i{
+    font-size: 3.5rem;
+    color : #98817B;
+    position: relative;
+    left: 1.3rem;
+}
+.roomtour{
+    height: 11.5rem;
+    width: 8.8rem;
+    background-image: url("Bed.png");
+    background-size: cover;
+    border-radius: 1rem;
+    margin-right: 1.8rem;
+}
+.roomtour>p{
+    color: rgb(48, 33, 33);
+    font-size: 0.7rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0.7rem;
+}
+
+.content>p:first-child{
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+}
+.content>p:last-child{
+    font-size: 1rem;
+    line-height: 4rem;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #98817B;
+}
+
+.container2>img{
+    height: 30rem;
+    width: 36rem;
+    position: absolute;
+    top: 3rem;
+    right: 9rem;
+}
+
+/* Page 2 */
+.page2{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    gap: 14rem;
+}
+
+/* Sec 1 */
+
+#sec1>.container{
+    height: 16rem;
+    width: 28rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: #98817B;
+    /* transform: translateX(-2.5rem); */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container>img{
+    height: 12rem;
+    width: 12rem;
+}
+
+
+.text>p:first-child{
+    color: white;
+    font-size: 2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.text>p:last-child{
+    color: white;
+    font-size: 1rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Sec 2 */
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.testimonials>p:first-of-type{
+    font-family: "Tangerine", cursive;
+  font-weight: 300;
+    font-style: italic;
+    color: rgb(250, 232, 216);
+    font-size: 6rem;
+}
+
+.testimonials>p:last-child{
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(250, 232, 216);
+    line-height: -10rem;
+    transform: translateY(-1.5rem);
+}
+
+.image>img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    transform: translateY(1.5rem);
+}
+
+.image>img:last-child{
+    position: relative;
+    right: 0.8rem;
+    z-index: 1;
+    outline-style: solid;
+    outline-color:#3d0c02;
+    outline-width: 0.2rem;
+}
+
+/* Sec 3 */
+.testimonials2{
+    background-color: red;
+    height: 14rem;
+    width: 22rem;
+}
+.testimonials2>p:first-child{
+    font-size: 2.5rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    text-wrap: wrap;
+}
+.testimonials2>p:last-child{
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    line-height: 5rem;
+
+}
+
+/* For Mobile Device Ranginge from 200px - 450px */
+
+
