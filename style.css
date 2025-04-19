@@ -5,23 +5,24 @@
 }
 
 body{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     background-image: url("bg.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     cursor: pointer;
-    background-attachment: local;
 }
+
 
 /* This is Navbar Section */
 
 .navbar{
-    margin-top: 1.5rem;
+    margin-top: 2vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
+    padding: 0px 4vw;
 }
 
 .logo{
@@ -31,16 +32,16 @@ body{
 }
 
 .logo>img{
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.5vw;
+    width: 3.5vw;
 }
 
 .section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
-    font-size: 1rem;
+    gap: 4vw;
+    font-size: 1.2vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -50,19 +51,20 @@ body{
 
 .section2{
     display: flex;
-    gap: 1.1rem;
-    font-size: 1rem;
+    gap: 1.1vw;
+    font-size: 1.2vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal; 
     align-items: center;
     color: #3d0c02;
+
 }
 
 .section2>li:nth-child(2){
-    height: 1.5rem;
-    width: 0.05rem;
+    height: 1.5vw;
+    width: 0.1vw;
     background-color: #5F8AA0;
 }
 
@@ -70,40 +72,44 @@ body{
     text-decoration: underline;
 }
 
+.menu{
+    display: none;
+}
+
+
 /* This is Main section of Left Side */
 
-.main{
-    margin-top:6rem;
+.page1{
+    margin-top: 6vw;
     display: flex;
     justify-content: space-around;
-    gap: 10rem;
+    align-items: center;
+    gap: 5vw;
 }
 
 .left{
-    height: 30rem;
-    width: 30rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2.0rem;
-
-
+    gap: 3vw;
 }
+
 sup{
-    font-size:3rem;
+    font-size:3vw;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    padding-left: 0.5rem;
+    padding-left: 0.5vw;
 }
+
 .para{
-    font-size: 6rem;
+    font-size: 6vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .para>p:first-child, .para>p:last-child{
@@ -111,78 +117,78 @@ sup{
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    line-height: 2rem;
+    line-height: 7vw;
     color: rgb(56, 36, 27);
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.5vw;
 }
 
 .para>p:nth-child(2){
     font-family: 'Times New Roman', Times, serif;
-    transform: translateY(12px);
+    transform: translateY(0.5vw);
     color:rgb(56, 36, 27);
-    letter-spacing: -0.5rem;
+    letter-spacing: -0.2vw;
+    line-height: 2.5vw;
 }
 
-.left>p:first-of-type{
+.left>p{
     color: rgba(238, 220, 210, 0.986);
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 250;
     font-style: normal;
-    margin-top: 1rem;
-
 }
+
 .left>span{
     text-align: center;
-    padding: 0.9rem;
-    width: 9rem;
-    border-radius: 5rem;
+    padding: 1.2vw;
+    width: 12vw;
+    border-radius:5vw;
     background-color:  rgb(56, 36, 27);
     color: #f3e0e1;
-    font-size: 1rem;
+    font-size: 1.2vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;  
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1vw;
 }
 
 /* This is Main section of Right Side */
 
 .right{
-    height: 24rem;
-    width: 37rem;
-    background-color:#F4F0EC;
-    border-radius:3.5rem;
-    list-style: none;
     position: relative;
-    right: 5rem;
 }
 
-.container{
-    margin: 2.5rem;s
+.container1{
+    height: 25vw;
+    width: 40vw;
+    background-color:#F4F0EC;
+    border-radius:3vw;
+    list-style: none;
+    padding: 2.5vw;
 }
 
 .section3{
     display: flex;
-    gap: 5px;
+    gap: 0.5vw;
+    justify-content: flex-start;
 }
 
 .section3>li{
-    font-size: 0.8rem;
+    font-size: 1vw;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     text-align: center;
-    padding: 0.5rem;
+    padding: 0.5vw;
 }
 
 .section3>li:first-child,.section3>li:nth-child(2){
-    border: 1.2px solid rgb(146, 146, 146);
-    border-radius: 1.5rem;
-    width:4.5rem;
+    border: 0.05vw solid rgb(146, 146, 146);
+    border-radius: 1.5vw;
+    width:6vw;
     color: rgb(48, 33, 33);
 }
 
@@ -190,50 +196,26 @@ sup{
     border-radius: 50%;
     background-color: rgb(48, 33, 33);
     color: rgba(238, 220, 210, 0.986);
-
 }
 
 .section4{
     display: flex;
     align-items: center;
-    position: relative;
-    margin
-}
-
-i{
-    font-size: 3.5rem;
-    color : #98817B;
-    position: relative;
-    left: 1.3rem;
-}
-.roomtour{
-    height: 11.5rem;
-    width: 8.8rem;
-    background-image: url("Bed.png");
-    background-size: cover;
-    border-radius: 1rem;
-    margin-right: 1.8rem;
-}
-.roomtour>p{
-    color: rgb(48, 33, 33);
-    font-size: 0.7rem;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 0.7rem;
+    justify-content: space-around;
+    width: calc(100% - 1.5vw);
 }
 
 .content>p:first-child{
-    font-size: 1.7rem;
-    line-height: 1.7rem;
+    font-size: 2vw;
+    line-height: 4vh;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 350;
     font-style: normal;
 }
 .content>p:last-child{
-    font-size: 1rem;
-    line-height: 4rem;
+    font-size: 1vw;
+    line-height: 2vh;
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -241,55 +223,77 @@ i{
     color: #98817B;
 }
 
-.container2>img{
-    height: 30rem;
-    width: 36rem;
-    position: absolute;
-    top: 3rem;
-    right: 9rem;
+i{
+    font-size: 3.5vw;
+    color : #98817B;
+    position: relative;
+    left: 1.3vw;
+}
+.roomtour{
+    height: 15vw;
+    width: 10vw;
+    background-image: url("Bed.png");
+    background-size: cover;
+    border-radius: 1vw;
+}
+.roomtour>p{
+    color: rgb(48, 33, 33);
+    font-size: 0.8vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1vw;
 }
 
-/* Page 2 */
+.container2>img{
+    height: 30vw;
+    width: 36vw;
+    position: absolute;
+    top: 6vw;
+    right: 11vw;
+}
+
+/* This is Page 2 */
+
 .page2{
+    margin-top:15vw;
     height: auto;
     width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 6rem;
 }
 
 /* Sec 1 */
 
-#sec1>.container{
-    height: 16rem;
-    width: 28rem;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+.container3{
+    height: 14vw;
+    width: 28vw;
+    padding: 2vw;
+    border-top-right-radius: 2vw;
     background-color: #98817B;
-    transform: translateX(-2.5rem);
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    padding: 2rem;
 }
 
-.container>img{
-    height: 12rem;
-    width: 12rem;
+.container3>img{
+    height: 12vw;
+    width: 12vw;
 }
-
 
 .text>p:first-child{
     color: white;
-    font-size: 2rem;
+    font-size: 1.8vw;
     font-family: "Outfit", sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
+    line-height: 2vw;
 }
+
 .text>p:last-child{
     color: white;
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: "Outfit", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -305,18 +309,18 @@ i{
 }
 
 .image{
-    transform: translateX(0.7rem);
+    transform: translateX(1.5vw);
 }
 .image>img{
-    height: 3rem;
-    width: 3rem;
+    height: 5vw;
+    width: 5vw;
     border-radius: 50%;
-    border: 0.2rem solid #39261e;
+    border: 0.3vw solid #39261e;
 }
 
 .image>img:last-child{
     position: relative;
-    right: 0.8rem;
+    right: 2vw;
     z-index: 1;
 }
 
@@ -325,45 +329,45 @@ i{
     font-weight: 300;
     font-style: italic;
     color: rgb(250, 232, 216);
-    font-size: 6rem;
+    font-size: 8vw;
 }
 
 .testimonials>p:last-child{
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     color: rgb(250, 232, 216);
-    line-height: -10rem;
-    transform: translateY(-1.5rem);
+    line-height: -10vw;
+    transform: translateY(-1.5vw);
 }
 
 /* Sec 3 */
+
+.page2{
+    width: calc(100% - 5vw);
+}
 .testimonials2{
-    transform: translateX(-2.rem);
-    height: 14rem;
-    width: 22rem;
+    height: 12vw;
+    width: 18vw;
 }
 .testimonials2>p:first-child{
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 150;
     color: rgb(255, 255, 255);
     text-wrap: wrap;
-    line-height: 2.5rem;
+    line-height: 2.5vw;
 }
 .testimonials2>p:last-child{
-    font-size: 1rem;
+    font-size: 1vw;
     font-family: "Funnel Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 100;
     color: rgb(255, 255, 255);
     text-decoration: underline;
-    line-height: 5rem;
-
+    line-height: 5vw;
 }
-
-/* For Mobile Device Ranginge from 200px - 450px */
 
 

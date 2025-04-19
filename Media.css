@@ -1,0 +1,781 @@
+
+/* This is for Phone Size */
+
+@media (min-width: 200px) and (max-width: 479px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* This is Device Navbar */
+
+  .navbar {
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 4vw;
+  }
+
+  .logo > img {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  .section,
+  .section2 {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    color: #f1e3d4;
+    background-color: #39261e;
+    font-size: 5vw;
+    border-bottom-left-radius: 4vw;
+    border-top-right-radius: 4vw;
+    padding: 2vw;
+  }
+
+  h3{
+    font-size: 3.5vw;
+  }
+
+
+  /* This is Main Page */
+
+  .page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+  }
+
+  /* This is Left page of Mobile Device */
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15vw;
+  }
+
+  .para {
+    font-size: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .para > p:first-child,
+  .para > p:last-child {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 36vw;
+    color: rgb(56, 36, 27);
+    letter-spacing: -1.5vw;
+  }
+
+  .para > p:nth-child(2) {
+    font-family: "Times New Roman", Times, serif;
+    transform: translateY(2.5vw);
+    color: rgb(56, 36, 27);
+    letter-spacing: -1vw;
+    line-height: 2vw;
+  }
+
+  sup {
+    font-size: 12vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 0.5vw;
+  }
+
+  .left > p {
+    color: #a45a52;
+    font-size: 7vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    transform: translateY(-5vw);
+  }
+
+  .left > span {
+    text-align: center;
+    padding: 4vw;
+    width: 35vw;
+    border-radius: 7vw;
+    background-color: rgb(56, 36, 27);
+    color: #f3e0e1;
+    font-size: 4vw;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+  }
+
+  /* This Right page of Mobile Device */
+
+  .container1 {
+    height: 75vw;
+    width: 90vw;
+    background-color: #f4f0ec;
+    border-radius: 8vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw;
+  }
+
+  .section3 {
+    display: flex;
+    gap: 2vw;
+    justify-content: flex-start;
+  }
+
+  .section3 > li {
+    font-size: 3vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 2vw;
+  }
+
+  .section3 > li:first-child,
+  .section3 > li:nth-child(2) {
+    border: 0.5vw solid rgb(146, 146, 146);
+    border-radius: 5vw;
+    width: 20vw;
+    color: rgb(48, 33, 33);
+  }
+
+  .section3 > li:last-child {
+    border-radius: 50%;
+    width: 8.5vw;
+    padding: 2.5vw;
+    background-color: rgb(48, 33, 33);
+    color: rgba(238, 220, 210, 0.986);
+  }
+
+  .section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2vw;
+    transform: translateY(-8vw);
+  }
+
+  .content > p:first-child {
+    font-size: 5vw;
+    line-height: 5vw;
+    letter-spacing: -0.1vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+  }
+  .content > p:last-child {
+    font-size: 3vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #98817b;
+  }
+
+  i {
+    font-size: 10vw;
+    color: #98817b;
+    position: relative;
+    left: 5.5vw;
+  }
+
+  .roomtour {
+    height: 40vw;
+    width: 25vw;
+    background-image: url("Bed.png");
+    background-size: cover;
+    border-radius: 2vw;
+  }
+
+  .roomtour > p {
+    color: rgb(48, 33, 33);
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 4vw;
+  }
+
+  .container2 > img {
+    height: 80vw;
+    width: 90vw;
+    position: absolute;
+    top: 35vw;
+    right: 3vw;
+  }
+
+  /* This is Page 2 */
+
+  .page2 {
+    margin-top: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+  }
+
+  /* This is Sec1 of Page 2*/
+
+  .container3 {
+    height: 65vw;
+    width: auto;
+    padding: 8vw;
+    border-radius: 10vw;
+    background-color: #98817b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .container3 > img {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .text > p:first-child {
+    color: white;
+    font-size: 6vw;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 7.5vw;
+  }
+
+  .text > p:last-child {
+    color: white;
+    font-size: 4vw;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .text {
+    padding: 0px 0px 0px 0.5vw;
+  }
+
+  /* This is Sec2 of Page 2*/
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    transform: translateX(3vw);
+  }
+  .image > img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    border: 1vw solid #39261e;
+  }
+
+  .image > img:last-child {
+    position: relative;
+    right: 5vw;
+    z-index: 1;
+  }
+
+  .testimonials > p:first-of-type {
+    font-family: "Tangerine", cursive;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(250, 232, 216);
+    font-size: 5rem;
+  }
+
+  .testimonials > p:last-child {
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(250, 232, 216);
+  }
+
+  /* This is Sec3 of Page2 */
+
+  .testimonials2 {
+    height: 12rem;
+    width: 18rem;
+    text-align: center;
+  }
+
+  .testimonials2 > p:first-child {
+    font-size: 1.5rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    color: rgb(255, 255, 255);
+    text-wrap: wrap;
+    line-height: 2rem;
+  }
+  .testimonials2 > p:last-child {
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    line-height: 5rem;
+  }
+}
+
+/* This is for Minimum Tablet Size */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* This is Mid-tablet Navbar */
+
+  .navbar {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 4vw;
+  }
+
+  .logo > img {
+    height: 12vw;
+    width: 12vw;
+  }
+
+  .section,
+  .section2 {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    color: #f1e3d4;
+    background-color: #39261e;
+    font-size: 5vw;
+    border-bottom-left-radius: 3vw;
+    border-top-right-radius: 3vw;
+    padding: 1.5vw;
+  }
+
+  h3{
+    font-size: 3.5vw;
+  }
+
+  /* This is Main Page of Mid-tablet */
+
+  .page1 {
+    margin-top: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30vw;
+  }
+
+  /* This is Left side of Mid-tablet Device */
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .para {
+    font-size: 18vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .para > p:first-child,
+  .para > p:last-child {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 22vw;
+    color: rgb(56, 36, 27);
+    letter-spacing: -1vw;
+    text-align: center;
+  }
+
+  .para > p:nth-child(2) {
+    font-family: "Times New Roman", Times, serif;
+    transform: translateY(2vw);
+    color: rgb(56, 36, 27);
+    letter-spacing: -1vw;
+    line-height: 4vw;
+  }
+
+  sup {
+    font-size: 10vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 0.5vw;
+  }
+
+  .left > p {
+    color: #a45a52;
+    font-size: 6vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    transform: translateY(-1.5vw);
+  }
+
+  .left > span {
+    text-align: center;
+    padding: 4vw;
+    width: 35vw;
+    border-radius: 7vw;
+    background-color: rgb(56, 36, 27);
+    color: #f3e0e1;
+    font-size: 5vw;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1vw;
+  }
+
+  /* This Right side of Mid-tablet Device */
+
+  .container1 {
+    height: 60vw;
+    width: 80vw;
+    background-color: #f4f0ec;
+    border-radius: 8vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5vw;
+  }
+
+  .section3 {
+    display: flex;
+    gap: 1.5vw;
+    justify-content: flex-start;
+  }
+
+  .section3 > li {
+    font-size: 2.2vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    padding: 2.2vw;
+  }
+
+  .section3 > li:first-child,
+  .section3 > li:nth-child(2) {
+    border: 0.05vw solid rgb(146, 146, 146);
+    border-radius: 10vw;
+    width: 18vw;
+    color: rgb(48, 33, 33);
+  }
+
+  .section3 > li:last-child {
+    border-radius: 50%;
+    width: 8.5vw;
+    padding: 2.8vw;
+    background-color: rgb(48, 33, 33);
+    color: rgba(238, 220, 210, 0.986);
+  }
+
+  .section4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    transform: translateY(-4vw);
+  }
+
+  .content > p:first-child {
+    font-size: 5vw;
+    line-height: 5vw;
+    letter-spacing: -0.1vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+  }
+  .content > p:last-child {
+    font-size: 3vw;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #98817b;
+  }
+
+  i {
+    font-size: 8vw;
+    color: #98817b;
+    position: relative;
+    left: 4vw;
+  }
+
+  .roomtour {
+    height: 30vw;
+    width: 20vw;
+    background-image: url("Bed.png");
+    background-size: cover;
+    border-radius: 2vw;
+  }
+
+  .roomtour > p {
+    color: rgb(48, 33, 33);
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 4vw;
+  }
+
+  .container2 > img {
+    height: 65vw;
+    width: 75vw;
+    position: absolute;
+    top: 28vw;
+    right: 10vw;
+  }
+
+  /* This is Page 2 */
+
+  .page2 {
+    margin-top: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20vw;
+  }
+
+  /* This is Sec1 of Page 2*/
+
+  .container3 {
+    height: 50vw;
+    width: auto;
+    padding: 8vw;
+    border-radius: 8vw;
+    background-color: #98817b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10vw;
+  }
+
+  .container3 > img {
+    height: 30vw;
+    width: 30vw;
+  }
+
+  .text > p:first-child {
+    color: white;
+    font-size: 5vw;
+    font-family: "Outfit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 7.5vw;
+  }
+
+  .text > p:last-child {
+    color: white;
+    font-size: 3vw;
+    font-family: "Outfit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .text {
+    padding: 0px 0px 0px 0.5vw;
+  }
+
+  /* This is Sec2 of Page 2*/
+
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image {
+    transform: translateX(3vw);
+  }
+  .image > img {
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    border: 1vw solid #39261e;
+  }
+
+  .image > img:last-child {
+    position: relative;
+    right: 5vw;
+    z-index: 1;
+  }
+
+  .testimonials > p:first-of-type {
+    font-family: "Tangerine", cursive;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(250, 232, 216);
+    font-size: 15vw;
+  }
+
+  .testimonials > p:last-child {
+    font-size: 3vw;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(250, 232, 216);
+  }
+
+  /* This is Sec3 of Page2 */
+
+  .testimonials2 {
+    height: 12rem;
+    width: 18rem;
+    text-align: center;
+  }
+
+  .testimonials2 > p:first-child {
+    font-size: 1.5rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 150;
+    color: rgb(255, 255, 255);
+    text-wrap: wrap;
+    line-height: 2rem;
+  }
+  .testimonials2 > p:last-child {
+    font-size: 1rem;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    line-height: 5rem;
+  }
+}
+
+/* This is Maximum Tablet Size */
+
+@media (min-width: 767px) and (max-width: 991px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100%;
+    width: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+   /* This is Max-Tablet Navbar */
+  
+   .navbar {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0px 4vw;
+  }
+
+  .logo > img {
+    height: 6vw;
+    width: 6vw;
+  }
+
+  .section,
+  .section2 {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    color: #f1e3d4;
+    background-color: #39261e;
+    font-size: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    padding: 1vw;
+  }
+
+}
